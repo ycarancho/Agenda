@@ -1,6 +1,6 @@
 <?php
-include_once("config/url.php");
 include_once("config/process.php");
+//Limpa a mensagem
 if (isset($_SESSION['msg'])) {
     $printmsg = $_SESSION['msg'];
     $_SESSION['msg'] = '';
@@ -14,7 +14,7 @@ if (isset($_SESSION['msg'])) {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angenda de Contatos</title>
+    <title>Agenda</title>
     <!-- BOOSTRAP -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css" integrity="sha512-usVBAd66/NpVNfBge19gws2j6JZinnca12rAe2l+d+QkLU9fiG02O1X8Q6hepIpr/EYKZvKx/I9WsnujJuOmBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- FONT AWESOME -->
