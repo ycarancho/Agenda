@@ -5,7 +5,7 @@
         <?php if (isset($printmsg) && $printmsg) : ?>
             <p id="msg"><?= $printmsg ?></p>
         <?php endif ?>
-        <h1 id="main-title">Contatos</h1>
+        <h1 id="main-title">Agenda</h1>
         <?php if (count($contacts) > 0) : ?>
             <table class="table" id="contacts-table">
                 <thead>
@@ -24,7 +24,7 @@
                             <td scope="row"><?= $contact['phone'] ?></td>
                             <td class="actions">
                                 <a href="<?= $BASE_URL ?>unicview.php?id=<?= $contact['id'] ?>"><i class="fas fa-eye check-icon"></i></a>
-                                <a href="#"><i class="far fa-edit edit-icon"></i></a>
+                                <a href="<?= $BASE_URL ?>edit.php?id=<?= $contact['id'] ?>"><i class="far fa-edit edit-icon"></i></a>
                                 <botton type="submit"><i class="fas fa-times delete-icon"></i></botton>
                             </td>
                         </tr>

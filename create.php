@@ -12,7 +12,7 @@
             </div>
             <div class="form-group">
                 <label for="phone">Telefone do Contato: </label>
-                <input id="line" type="text" class="form-control" id="phone" name="phone" placeholder="Telefone do Contato: " required>
+                <input id="line" type="text" class="form-control" id="phone" name="phone" placeholder="(00) 00000-0000 " required>
             </div>
             <div class="form-group">
                 <label for="observation">Observações: </label>
