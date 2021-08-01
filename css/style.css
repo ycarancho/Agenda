@@ -32,11 +32,20 @@
 .check-icon{
     color: #22e24f;
 }
+
+.delete-form{
+    display: inline-block;
+}
 .delete-icon{
     color: #fb0800;
 }
 .edit-icon{
     color: #34c5f1;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  padding: 0;
 }
 
 
